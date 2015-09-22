@@ -10,8 +10,8 @@ data. One of the key capabilities we have been working on is the ability to
 dealias radial velocities. This is especially important to DoE ARM as we work at 
 X and C bands.
 
-The Meteorological Service of Catalan has a network of radars (Which bands?)
-which use dual PRF to produce dealiased radial velocities (for use in what?).
+The Meteorological Service of Catalan has a network of radars (C-band, single-polarisation)
+which use dual PRF to produce dealiased radial velocities (for use in forecast and ingestion?).
 One issue that scientists are addressing is these pulse techniques can fail.
 
 The key area of commonality is we are both interested in the data quality of
@@ -21,7 +21,7 @@ times that need improving.
 Project Plans
 -------------
 
-###1) Develop an IPython Gallery of examples of failed dealasing we wish to detect
+###1) Develop an IPython Gallery of examples of failed dealiasing we wish to detect
 Details
 
 ###2) In Py-ART develop code that metrics of "Quality" of the velocity
